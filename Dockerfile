@@ -23,3 +23,9 @@ RUN ionic build
 
 # Set the application's port number
 EXPOSE 80
+
+# Use Nginx base image
+FROM nginx:alpine
+
+COPY --from=build /usr/src/app/www /usr/share/nginx/html
+
