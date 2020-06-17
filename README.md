@@ -8,7 +8,7 @@ Udagram is a simple cloud application developed awhich allows users to register 
 
 > _tip_: this frontend is designed to work with [The RestAPI User API Backend](https://github.com/pai-amit/udagram-user-api) and [The RestAPI Feed API Backend](https://github.com/pai-amit/udagram-feed-api). It is recommended you stand up the backend first, test using Postman, and then the frontend should integrate.
 
-In addition, the deployments are done using [Kubernete](https://github.com/pai-amit/udagram-k8s-deployments)
+In addition, the deployments are done using [Kubernetes](https://github.com/pai-amit/udagram-k8s-deployments)
 
 ### Installing Node and NPM
 This project depends on Nodejs and Node Package Manager (NPM). Before continuing, you must download and install Node (NPM is included) from [https://nodejs.com/en/download](https://nodejs.org/en/download/).
