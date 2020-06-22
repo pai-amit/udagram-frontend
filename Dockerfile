@@ -29,3 +29,5 @@ FROM nginx:alpine
 
 COPY --from=build /usr/src/app/www /usr/share/nginx/html
 
+COPY nginx.conf /etc/nginx/nginx.conf
+
